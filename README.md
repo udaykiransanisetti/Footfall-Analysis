@@ -97,10 +97,3 @@ track conversion and basket value alongside footfall; do not read the slope as a
 Multiple regression with weekend, promotion, holiday and weather; chronological train/test split or
 cross-validation; more stores and a longer history (seasonality); confidence intervals; real data upload.
 
-## Short pitch (for evaluation / interview)
-
-"I built a Streamlit app that looks at 120 days of fictional store data. Footfall and revenue have a correlation of
-0.70, and a simple regression says each extra visitor goes with about ₹242 more revenue, with R² of 0.43 on
-unseen days. I was careful not to claim causation: when I also account for weekends, promotions and holidays,
-the footfall effect falls to about ₹168 per visitor. That shows why a one-variable model overstates the effect.
-Next I'd use multiple regression and a time-based split."
